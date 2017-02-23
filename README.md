@@ -7,7 +7,9 @@ a) Entwickeln Sie ein Java-Programm, das in einem ersten Schritt alle Klassen au
 - die Anzahl der implementierten Schnittstellen,
 -  die Tiefe der Ableitungshierarchie,
 -  die durchschnittliche Anzahl von Parametern pro Methode.
+
 Wählen Sie eine Datenstruktur, die gewährleistet, dass einerseits schnell auf die Metriken einer Klasse zugegriffen werden kann und andererseits die Kennzahlen aller Klassen eines Pakets effi- zient kumuliert werden können. Für das Ermitteln aller Klassen eines Pakets (und dessen Unter- pakete) soll nur der dafür relevante Teil der Datenstruktur durchsucht werden müssen.
+
 b) Schaffen Sie im nächsten Schritt Möglichkeiten, statistische Kennzahlen zu ermitteln. Zumindest folgende Funktionalität ist vorzusehen:
 -  Ermittlung der Kennzahlen für eine Klasse.
 - Ermittlung der Kennzahlen für ein Paket (inklusive der Unterpakete). Kumulieren Sie dafür die oben angeführten Kennzahlen (ermitteln Sie Minimal-, Maximal- und Durchschnitts- werte). Geben Sie auch die Anzahl der Klassen und Unterpakete an.
